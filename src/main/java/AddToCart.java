@@ -26,7 +26,7 @@ public class AddToCart {
         Set<Map.Entry<String, List<String>>> setHashMap = productListAdded.entrySet();
 
         for (Map.Entry<String, List<String>> i : setHashMap) {
-            System.out.println(i.getKey() + "   -->   " + i.getValue());
+            System.out.println("final cart: " + i.getKey() + "   -->   " + i.getValue());
         }
     }
 }
