@@ -42,4 +42,6 @@ public class Discount {
             System.out.println("testcase failed");
         }
     }
+
+    // NOTE: Hàm System.out.println sẽ được thay thế bằng các hàm assert that, sẽ được học ở những bài sau
 }
